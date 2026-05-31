@@ -1,1 +1,0 @@
-if('serviceWorker' in navigator) {window.addEventListener('load', () => {navigator.serviceWorker.register('/dog-toy-rotation-web/sw.js', { scope: '/dog-toy-rotation-web/' })})}
